@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    margin: 15rem 0 0 0;
+    text-align: center;
+    padding: 2rem;
+    background-color: #726BFF;
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#usuarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 30rem;
+}
+
+.usuario, .item-menu{
+    margin: 2rem 0 0 0;
+    width: 100%;
+    padding: 1rem;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    color: #514AE5;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.usuario:hover, .item-menu:hover{
+    background-color:#726BFF;
+    color: white;
+}
+
+/* Menu */
+
+.header-varios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-varios a{
+    width: 3rem;
+    height: 3rem;
+}
+
+#menu, #login {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+}
+
+.item-menu{
+    border: none;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#login{
+    margin-top: 2rem;
+}
